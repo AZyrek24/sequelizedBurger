@@ -1,0 +1,65 @@
+img {
+  margin-left: 26px;
+}
+h1 {
+  font-size: 36px;
+  text-align: center;
+}
+h2 {
+  background-color: blue;
+  color: white;
+  font-size: 30px;
+  margin: 0 10px;
+  padding: 5px;
+}
+button {
+    background-color: blue;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+li {
+  font-size: 18px;
+}
+.container {
+  width: 100%;
+  color: blue;
+  display: inline-block;
+}
+.row {
+  width: 100%;
+}
+.empty-cells {
+  width: 20%;
+  height: 260px;
+  float: left;
+}
+.burger-displays {
+  width: 20%; 
+  height: 260px; 
+  text-align: left;
+  float: left;
+}
+#title {
+  background-color: white;
+  text-align: center;
+  width: 20%;
+  height: 260px;
+  float: left;
+}
+#odd-cell {
+  background-color: red;
+  float: left;
+}
+#even-cell {
+  background-color: yellow;
+  float: left;
+}
+
