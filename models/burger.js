@@ -2,7 +2,7 @@
 //=====================================================================
 
 module.exports = function (sequelize, DataTypes) {
-  var burger = sequelize.define("burgers", {
+  var Burger = sequelize.define("burgers", {
     burger_name: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -10,7 +10,10 @@ module.exports = function (sequelize, DataTypes) {
         len: [1]
       }
     },
-    devoured: false
+    devoured: {
+      type: DataTypes.BOOLEAN,
+      defaultValue: false
+    }
   });
-return burger;
+return Burger;
 };
