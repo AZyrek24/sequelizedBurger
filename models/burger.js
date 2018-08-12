@@ -1,4 +1,4 @@
-// Models
+// Burger Model
 //=====================================================================
 
 module.exports = function (sequelize, DataTypes) {
