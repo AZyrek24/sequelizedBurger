@@ -5,7 +5,8 @@
     "database": "burgers_db",
     "host": "127.0.0.1",
     "port": 8889,
-    "dialect": "mysql"
+    "dialect": "mysql",
+    "url": "mysql://w9g5oc134vd7y8r9:jm5vc1xgpwu1h9w5@muowdopceqgxjn2b.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/ikiybpa3jy4sf3l8"
   },
   "test": {
     "username": "root",
@@ -18,7 +19,7 @@
   "production": {
     "username": "w9g5oc134vd7y8r9",
     "password": "jm5vc1xgpwu1h9w5",
-    "database": "k3h13eb1g0gowps6",
+    "database": "ikiybpa3jy4sf3l8",
     "host": "muowdopceqgxjn2b.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
     "port": 3306,
     "use_env_variable": "mysql://w9g5oc134vd7y8r9:jm5vc1xgpwu1h9w5@muowdopceqgxjn2b.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/ikiybpa3jy4sf3l8",
